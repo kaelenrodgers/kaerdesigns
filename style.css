@@ -213,6 +213,18 @@ footer img{
     }
 }
 
+@media screen and (max-width: 300px){
+    .pgscript img{
+        max-width: 250px;
+        margin-top: -55px;
+        margin-bottom: -50px;
+        transition: .5s;
+    }
+    .hmscript{
+        margin: 50px;
+    }
+}
+
 /*Design*/
 
 #designd{
@@ -323,12 +335,12 @@ footer img{
 }
 
 #hello{
-    color: white;
+    color: black;
     font-size: 40px;
 }
 
 .aboutph{
-    color: white;
+    color: black;
     line-height: 25px;
 }
     
@@ -336,8 +348,8 @@ footer img{
     margin-top: 250px;
     
 }
-
-
+    
+    
 
 @media screen and (min-width:600px){
     
@@ -345,6 +357,34 @@ footer img{
         display: inline-block;
         width: 47%;
         float: left;
+    }
+    
+    #text{
+        display: inline-block;
+        width: 47%;
+        margin-left: 6%;
+    }
+    
+    #hello{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .aboutph{
+        display: inline-block;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+} 
+        
+        
+@media screen and (min-width:300px){
+    
+    #amain img{
+        display: inline-block;
+        width: 80%;
+        //background-color: aqua;
     }
     
     #text{
@@ -380,6 +420,41 @@ footer img{
     color: rgb(255, 160, 1);
 }
 
+    
+    
+    
+@media screen and (max-width: 1200px){
+    .hmscript img{
+    max-width: 1200px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .hmscript img{
+    max-width: 800px;
+    }
+}
+@media screen and (max-width: 800px){
+    .hmscript img{
+    max-width: 600px;
+    }
+}
+@media screen and (max-width: 600px){
+    .hmscript img{
+        max-width: 500px;
+    }
+    .hmscript{
+        margin: 30px;
+    }
+}
+    
+@media screen and (max-width: 300px){
+    .hmscript img{
+        max-width: 100px;
+    }
+    .hmscript{
+        margin: 15px;
+    }
+}
 
 
 
@@ -392,7 +467,7 @@ footer img{
 .formtitle{
     font-size: 50px;
     //margin-top: 50px;
-    color: white;
+    color: black;
     font-family: agenda, san-serif;
     font-weight: 400;
     font-style: normal;
@@ -405,10 +480,10 @@ footer img{
     font-size: 17px;
     margin-left: 12px;
     line-height: 25px;
-    color: white;
+    color: black;
 }
 .formlabel{
-    color: white;
+    color: black;
     font-family: agenda, san-serif;
     font-size: 25px;
     font-weight: 400;
@@ -452,11 +527,11 @@ footer img{
     font-style: normal;
     letter-spacing: 1.5px;
     outline: none;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(134,141,143);
     border: none;
 }
 .forminput:focus{
-    background-color: gainsboro;  
+    background-color: rgb(212, 212, 212);  
 }
 .forminputsmall{
     color: black;
@@ -469,11 +544,11 @@ footer img{
     font-style: normal;
     letter-spacing: 1.5px;
     outline: none;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(134,141,143);
     border: none;
 }
 .forminputsmall:focus{
-    background-color: gainsboro;  
+    background-color: rgb(212, 212, 212);  
 }
 
 textarea.forminput{
@@ -492,6 +567,6 @@ textarea.forminput{
     background-color: rgb(255, 160, 1);
 }
 .formbutton:active{
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(212, 212, 212);
 }
 
