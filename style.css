@@ -116,9 +116,9 @@ footer img{
 }
 
 #homescript{
-    width: 80%;
+    width: 70%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -127,34 +127,34 @@ footer img{
 }
 .hmscript{
     margin: 50px;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 .hmscript img{
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 
 @media screen and (max-width: 1200px){
     .hmscript img{
-    max-width: 1200px;
+    max-width: 1000px;
     }
 }
-@media screen and (max-width: 1200px){
-    .hmscript img{
-    max-width: 800px;
-    }
-}
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     .hmscript img{
     max-width: 600px;
     }
 }
+@media screen and (max-width: 800px){
+    .hmscript img{
+    max-width: 500px;
+    }
+}
 @media screen and (max-width: 600px){
     .hmscript img{
-        max-width: 500px;
+        max-width: 400px;
     }
     .hmscript{
-        margin: 30px;
+        margin: 15px;
     }
 }
 
