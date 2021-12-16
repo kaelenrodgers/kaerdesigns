@@ -210,7 +210,17 @@ footer img{
     }
     .hmscript{
         margin: 30px;
+}
+
+@media screen and (max-width: 450px){
+    .pgscript img{
+        max-width: 300px;
+        margin-top: -50px;
+        margin-bottom: -30px;
     }
+    .hmscript{
+        margin: 20px;
+    } 
 }
 
 @media screen and (max-width: 300px){
@@ -254,6 +264,8 @@ footer img{
     margin-bottom: 6%;
     width: 100%;
 }
+
+
 
 
 @media screen and (min-width:600px){
@@ -420,42 +432,6 @@ footer img{
     color: rgb(255, 160, 1);
 }
 
-    
-    
-    
-@media screen and (max-width: 1200px){
-    .hmscript img{
-    max-width: 1200px;
-    }
-}
-@media screen and (max-width: 1200px){
-    .hmscript img{
-    max-width: 800px;
-    }
-}
-@media screen and (max-width: 800px){
-    .hmscript img{
-    max-width: 600px;
-    }
-}
-@media screen and (max-width: 600px){
-    .hmscript img{
-        max-width: 500px;
-    }
-    .hmscript{
-        margin: 30px;
-    }
-}
-    
-@media screen and (max-width: 300px){
-    .hmscript img{
-        max-width: 100px;
-    }
-    .hmscript{
-        margin: 15px;
-    }
-}
-
 
 
 /*Form*/
@@ -569,4 +545,12 @@ textarea.forminput{
 .formbutton:active{
     background-color: rgb(212, 212, 212);
 }
-
+    
+    
+@media screen and (max-width: 450px){
+    .forminput{
+        background-color:aqua;
+        font-size: 500px;
+    }
+    
+}
