@@ -154,7 +154,7 @@ footer img{
         max-width: 400px;
     }
     .hmscript{
-        margin: 15px;
+        margin: 5px;
     }
 }
 
@@ -177,72 +177,73 @@ footer img{
 
 .pgscript{
     margin: 50px;
-    max-width: 1200px;
+    max-width: 1000px;
     //background-color: black;
 }
 .pgscript img{
-    max-width: 1200px;
+    max-width: 1000px;
     //background-color: aqua;
 }
 
 @media screen and (max-width: 1200px){
     .pgscript img{
-    max-width: 1200px;
+    max-width: 800px;
     transition: .5s;
     }
 }
-@media screen and (max-width: 1200px){
-    .pgscript img{
-    max-width: 800px;
-        transition: .5s;
-    }
-}
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     .pgscript img{
     max-width: 600px;
         transition: .5s;
     }
 }
+@media screen and (max-width: 800px){
+    .pgscript img{
+    max-width: 500px;
+        transition: .5s;
+    }
+}
 @media screen and (max-width: 600px){
     .pgscript img{
-        max-width: 500px;
+        max-width: 350px;
         transition: .5s;
     }
     .hmscript{
         margin: 30px;
+    }
 }
-
+    
 @media screen and (max-width: 450px){
     .pgscript img{
-        max-width: 300px;
+        max-width: 200px;
         margin-top: -50px;
         margin-bottom: -30px;
     }
     .hmscript{
-        margin: 20px;
+        margin: 10px;
     } 
 }
 
 @media screen and (max-width: 300px){
     .pgscript img{
-        max-width: 250px;
+        max-width: 150px;
         margin-top: -55px;
         margin-bottom: -50px;
         transition: .5s;
     }
     .hmscript{
-        margin: 50px;
+        margin: 5px;
     }
 }
 
 /*Design*/
-
+    
 #designd{
     color: rgb(180, 2, 120);
 }
 
 #dmain{
-    width: 80%;
+    width: 70%;
     margin: auto;
     margin-top: 50px;
     //background-color: antiquewhite;
@@ -252,6 +253,7 @@ footer img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    //background-color: blue;
 }
 
 .images a{
@@ -264,8 +266,6 @@ footer img{
     margin-bottom: 6%;
     width: 100%;
 }
-
-
 
 
 @media screen and (min-width:600px){
@@ -285,6 +285,7 @@ footer img{
         width: 44%;
         //background-color: beige;
     }
+}
     
 @media screen and (min-width:1000px){
     
@@ -303,8 +304,11 @@ footer img{
         width: 33%;
         //background-color: beige;
     }
-    
 }
+
+    
+    
+
 
     
     
@@ -316,14 +320,67 @@ footer img{
 }
 
 #wmain{
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    //margin: 10%;
     margin-top: 50px;
     //background-color: aqua;
 }
 
+.imagesw{
+    display: flex;
+    //flex-wrap: wrap;
+    justify-content: center;
+}
 
+.imagesw a{
+    margin-bottom: 6%;
+    width: 80%;
+    //background-color: aqua;
+}
+
+.imagesw img{
+    margin-bottom: 6%;
+    width: 80%;
+}
+
+@media screen and (min-width:600px){
     
+    .imagesw{
+        justify-content: center;
+    }
+    
+    .imagesw img{
+        display: inline-block;
+        width: 90%;
+        //background-color: aquamarine;
+    }
+    
+    .imagesw a{
+        display: inline-block;
+        width: 44%;
+        //background-color: beige;
+    }
+    
+@media screen and (min-width:1000px){
+    
+    .imagesw{
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .imagesw img{
+        display: inline-block;
+        width: 90%;
+        background-color: aquamarine;
+    }
+    
+    .imagesw a{
+        display: inline-block;
+        width: 33%;
+        //background-color: beige;
+    }
+    
+}
 
 
 
