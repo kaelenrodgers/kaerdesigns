@@ -41,7 +41,7 @@ nav a{
 
 #menu:hover{
     color: rgb(179, 179, 179);
-}
+    }
     #home:hover{
         color: rgb(179, 179, 179);
     }
@@ -262,17 +262,39 @@ footer img{
     flex-wrap: wrap;
     justify-content: center;
     //background-color: blue;
+    overflow: hidden
 }
 
 .images a{
-    margin-bottom: 6%;
-    width: 80%;
+    //margin-bottom: 6%;
+    width: 100%;
     //background-color: aqua;
 }
 
 .images img{
-    margin-bottom: 6%;
+    //margin: 10%;
+    margin-top: 0%;
     width: 100%;
+}
+
+.zoom{
+    overflow: hidden;
+    background-color: aquamarine;
+    transform: scale(1);
+    margin: 0;
+    margin-bottom:4%;
+    //margin-right: 0%;
+}
+
+.zoom img{
+    transition: transform 0.4s;
+    //background-color: pink;
+    width:100%;
+    margin-bottom: 0;
+}
+
+.zoom:hover img{
+    transform: scale(1.15);
 }
 
 
@@ -420,15 +442,34 @@ footer img{
     //background-color: antiquewhite;
 }
 
-#amain img{
-    width: 100%;
-    margin: auto;
-    margin-bottom: 50px;
+.aformat{
+    display: flex;
+    //flex-wrap: wrap;
+    //background-color: blue;
+    //justify-content: center;
+}
+    
+.aformat img{
+    width:45%;
+    height: 45%;
+    max-width: 400px;
+    background-color: aqua;
+    margin: 0;
+}
+
+#text{
+    display: inline-block;
+    width: 45%;
+    margin-left: 6%;
+    //flex-wrap: wrap;
+    //background-color: pink;
 }
 
 #hello{
     color: black;
     font-size: 40px;
+    margin: 0px;
+    margin-top: -10px;
 }
 
 .aboutph{
@@ -441,20 +482,52 @@ footer img{
     
 }
     
-    
-
-@media screen and (min-width:600px){
+@media screen and (max-width:800px){
     
     #amain img{
         display: inline-block;
         width: 47%;
-        float: left;
+        //float: left;
     }
     
     #text{
         display: inline-block;
         width: 47%;
-        margin-left: 6%;
+        //margin-left: 6%;
+    }
+    
+    #hello{
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    
+    .aboutph{
+        display: inline-block;
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        letter-spacing: 1;
+    }
+}   
+
+@media screen and (max-width:600px){
+    
+    .aformat{
+        justify-content: center;
+        //width: 70%;
+    }
+    
+    .aformat img{
+        display: inline-block;
+        width: 50%;
+    }
+    
+    #text{
+        display: inline-block;
+        justify-content: center;
+        width: 50%;
+        //margin-left: 6%;
     }
     
     #hello{
@@ -467,15 +540,18 @@ footer img{
         margin: 0px;
         margin-bottom: 10px;
     }
-
 } 
         
         
-@media screen and (min-width:300px){
+@media screen and (max-width:300px){
     
-    #amain img{
+    .aformat{
+        width: 70%;
+    }
+    
+    .aformat img{
         display: inline-block;
-        width: 80%;
+        width: 70%;
         //background-color: aqua;
     }
     
