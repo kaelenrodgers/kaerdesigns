@@ -251,7 +251,7 @@ footer img{
 }
 
 #dmain{
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 50px;
     //background-color: antiquewhite;
@@ -365,7 +365,7 @@ footer img{
 }
 
 #wmain{
-    width: 100%;
+    width: 80%;
     margin: auto;
     margin-top: 50px;
     //background-color: aqua;
@@ -405,7 +405,8 @@ footer img{
         width: 44%;
         //background-color: beige;
     }
-    
+}
+
 @media screen and (min-width:1000px){
     
     .imagesw{
@@ -444,24 +445,25 @@ footer img{
 
 .aformat{
     display: flex;
-    //flex-wrap: wrap;
+    flex-wrap: wrap;
     //background-color: blue;
-    //justify-content: center;
+    justify-content: center;
 }
     
 .aformat img{
-    width:45%;
+    width: 45%;
     height: 45%;
-    max-width: 400px;
+    //max-width: 400px;
     background-color: aqua;
     margin: 0;
 }
 
 #text{
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     width: 45%;
     margin-left: 6%;
-    //flex-wrap: wrap;
+    min-width: 225px;
     //background-color: pink;
 }
 
@@ -483,8 +485,7 @@ footer img{
 }
     
 @media screen and (max-width:800px){
-    
-    #amain img{
+    .aformat img{
         display: inline-block;
         width: 47%;
         //float: left;
@@ -493,7 +494,6 @@ footer img{
     #text{
         display: inline-block;
         width: 47%;
-        //margin-left: 6%;
     }
     
     #hello{
@@ -511,69 +511,26 @@ footer img{
     }
 }   
 
-@media screen and (max-width:600px){
-    
-    .aformat{
-        justify-content: center;
-        //width: 70%;
-    }
-    
-    .aformat img{
-        display: inline-block;
-        width: 50%;
-    }
-    
-    #text{
-        display: inline-block;
-        justify-content: center;
-        width: 50%;
-        //margin-left: 6%;
-    }
-    
-    #hello{
-        margin: 0px;
-        margin-bottom: 10px;
-    }
-    
-    .aboutph{
-        display: inline-block;
-        margin: 0px;
-        margin-bottom: 10px;
-    }
-} 
-        
-        
-@media screen and (max-width:300px){
-    
-    .aformat{
+@media screen and (max-width:598px){
+    #amain{
         width: 70%;
     }
     
     .aformat img{
         display: inline-block;
-        width: 70%;
-        //background-color: aqua;
+        width: 80%;
+        //min-width: 400px;
+        background-color: aqua;
+        margin-bottom: 15px;
     }
     
     #text{
         display: inline-block;
-        width: 47%;
-        margin-left: 6%;
-    }
-    
-    #hello{
-        margin: 0px;
-        margin-bottom: 10px;
-    }
-    
-    .aboutph{
-        display: inline-block;
-        margin: 0px;
-        margin-bottom: 10px;
-    }
-
-} 
-
+        width: 80%;
+        //background-color: pink;
+        margin-left: 0;
+    } 
+}
 
 
 /*Contact*/
