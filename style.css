@@ -262,32 +262,29 @@ footer img{
     flex-wrap: wrap;
     justify-content: center;
     //background-color: blue;
-    overflow: hidden
 }
 
 .images a{
-    //margin-bottom: 6%;
-    width: 100%;
+    width: 25%;
     //background-color: aqua;
 }
 
 .images img{
-    //margin: 10%;
     margin-top: 0%;
-    width: 100%;
+    width: 50%;
 }
 
 .zoom{
     overflow: hidden;
-    background-color: aquamarine;
+    //background-color: aquamarine;
     transform: scale(1);
-    margin: 0;
-    margin-bottom:4%;
-    //margin-right: 0%;
+    margin-bottom: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
 }
 
 .zoom img{
-    transition: transform 0.4s;
+    transition: transform 0.5s;
     //background-color: pink;
     width:100%;
     margin-bottom: 0;
@@ -297,27 +294,61 @@ footer img{
     transform: scale(1.15);
 }
 
-
-@media screen and (min-width:600px){
+@media screen and (max-width:800px){
     
     .images{
         justify-content: center;
+        //background-color: pink;
     }
     
     .images img{
-        display: inline-block;
-        width: 90%;
+        //display: inline-block;
+        width: 10%;
         //background-color: aquamarine;
     }
     
     .images a{
-        display: inline-block;
-        width: 44%;
+        //display: inline-block;
+        width: 45%;
         //background-color: beige;
+    }
+    
+    .zoom{
+        width: 100%;
+    }
+    .zoom img{
+        width: 100%;
     }
 }
+
+/*
+@media screen and (min-width:800px){
     
-@media screen and (min-width:1000px){
+    .images{
+        justify-content: center;
+        background-color: antiquewhite;
+        //width: 70%;
+    }
+    
+    .images img{
+        //display: inline-block;
+        //width: 100%;
+        background-color: aquamarine;
+    }
+    
+    .images a{
+        //display: inline-block;
+        width: 100%;
+        background-color: beige;
+    }
+    
+    .zoom img{
+        width: 100%;
+    }
+}
+*/
+
+@media screen and (max-width:600px){
     
     .images{
         justify-content: center;
@@ -331,8 +362,12 @@ footer img{
     
     .images a{
         display: inline-block;
-        width: 33%;
+        width: 75%;
         //background-color: beige;
+    }
+    
+    .zoom img{
+        width: 100%;
     }
 }
 
