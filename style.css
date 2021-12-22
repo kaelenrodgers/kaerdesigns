@@ -503,15 +503,18 @@ footer img{
 }
 
 #hello{
+    display: block;
     color: black;
     font-size: 40px;
     margin: 0px;
     margin-top: -10px;
+    margin-right: 50%;
 }
 
 .aboutph{
     color: black;
     line-height: 25px;
+    margin-bottom: 0;
 }
     
 #aboutftr{
@@ -696,9 +699,22 @@ textarea.forminput{
     
     
 @media screen and (max-width: 450px){
-    .forminput{
-        background-color:aqua;
-        font-size: 500px;
+    .formitem{
+        width: 100%;
     }
-    
+    .forminput{
+        //background-color:aqua;
+        font-size: 12px;
+        height: 30px;
+        width: 95%;
+    }
+    .forminputsmall{
+        font-size: 12px;
+        height: 30px;
+        width: 97%;
+        max-width: none;
+    }
+    .formbutton{
+        width: 95%;
+    }
 }
