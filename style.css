@@ -427,6 +427,29 @@ footer img{
     
 }
 
+.zoomw{
+    overflow: hidden;
+    //background-color: aquamarine;
+    transform: scale(1);
+    margin-bottom: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.zoomw img{
+    transition: transform 0.5s;
+    //background-color: pink;
+    width:100%;
+    margin-bottom: 0;
+}
+
+.zoomw:hover img{
+    transform: scale(1.15);
+}
+
+
+
+
 /*Blog*/
 .postsum{
     text-decoration: none;
@@ -473,6 +496,13 @@ footer img{
         //background-color: blue;
         margin-left: 10%;
     }
+    
+    .zoomw{
+        width: 100%;
+    }
+    .zoomw img{
+        width: 100%;
+    }
 }
 
 
@@ -484,7 +514,7 @@ footer img{
     
     .imagesw img{
         display: inline-block;
-        width: 90%;
+        width: 100%;
         //background-color: aquamarine;
     }
     
@@ -511,7 +541,7 @@ footer img{
     
     .imagesw img{
         display: inline-block;
-        width: 90%;
+        width: 100%;
         //background-color: aquamarine;
     }
     
