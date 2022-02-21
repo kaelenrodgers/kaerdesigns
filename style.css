@@ -410,20 +410,24 @@ footer img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    //background-color: green;
+    width: 100%;
 }
 
 .imagesw a{
     margin-bottom: 6%;
-    width: 80%;
-    //background-color: aqua;
+    //width: 10%;
+    //background-color: pink;
 }
 
 .imagesw img{
     margin-bottom: 6%;
-    width: 100%;
+    //width: 200%;
+    height: 100%;
+    
 }
 
-
+/*Blog*/
 .postsum{
     text-decoration: none;
     color: black;
@@ -469,7 +473,6 @@ footer img{
         //background-color: blue;
         margin-left: 10%;
     }
-
 }
 
 
