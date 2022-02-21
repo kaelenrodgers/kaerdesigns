@@ -411,18 +411,16 @@ footer img{
     flex-wrap: wrap;
     justify-content: center;
     //background-color: green;
-    width: 100%;
+    //width: 100%;
 }
 
 .imagesw a{
-    margin-bottom: 6%;
-    //width: 10%;
-    //background-color: pink;
+    background-color: pink;
 }
 
 .imagesw img{
     margin-bottom: 6%;
-    //width: 200%;
+    width: 50%;
     height: 100%;
     
 }
@@ -495,13 +493,6 @@ footer img{
         width: 80%;
         //background-color: blue;
         margin-left: 10%;
-    }
-    
-    .zoomw{
-        width: 100%;
-    }
-    .zoomw img{
-        width: 100%;
     }
 }
 
