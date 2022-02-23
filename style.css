@@ -420,7 +420,7 @@ footer img{
 
 .imagesw img{
     margin-bottom: 6%;
-    //width: 50%;
+    width: 100%;
     height: 100%;
     
 }
@@ -497,7 +497,7 @@ footer img{
     }
     
     .zoomw{
-        height: 100%;
+        width: 100%;
     }
     .zoomw img{
         width: 100%;
