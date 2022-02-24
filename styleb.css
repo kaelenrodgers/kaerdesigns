@@ -200,6 +200,50 @@ footer img{
     //background-color: aqua;
 }
 
+.bformat{
+    display: flex;
+    flex-wrap: wrap;
+    //background-color: blue;
+    //justify-content: center;
+}
+
+#text{
+    display: flex;
+    flex-wrap: wrap;
+    //width: 88%;
+    margin-left: 3%;
+    margin-right: 3%;
+    min-width: 225px;
+    //background-color: pink;
+}
+
+.title{
+    display: block;
+    color: black;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.ph{
+    color: black;
+    line-height: 25px;
+    margin-bottom: 10;
+}
+    
+#aboutftr{
+    margin-top: 50px;
+    
+}
+
+.bformat img{
+    width: 30%;
+    //height: 30%;
+    //max-width: 400px;
+    background-color: aqua;
+    margin-left: 3%;
+}
+
 .imagesw{
     display: flex;
     flex-wrap: wrap;
@@ -217,51 +261,6 @@ footer img{
     margin-bottom: 6%;
     width: 100%;
     height: 100%;
-    
-}
-
-
-.bformat{
-    display: flex;
-    flex-wrap: wrap;
-    //background-color: blue;
-    //justify-content: center;
-}
-    
-.bformat img{
-    width: 45%;
-    height: 45%;
-    //max-width: 400px;
-    background-color: aqua;
-    margin: 0;
-}
-
-#text{
-    display: flex;
-    flex-wrap: wrap;
-    width: 45%;
-    margin-left: 6%;
-    min-width: 225px;
-    //background-color: pink;
-}
-
-#hello{
-    display: block;
-    color: black;
-    font-size: 40px;
-    margin: 0px;
-    margin-top: -10px;
-    margin-right: 50%;
-}
-
-.aboutph{
-    color: black;
-    line-height: 25px;
-    margin-bottom: 0;
-}
-    
-#aboutftr{
-    margin-top: 250px;
     
 }
     
