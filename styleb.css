@@ -10,7 +10,7 @@ body{
     margin: auto;
 }
 
-a, p, h1{
+a, p, h1, h2{
     font-family: agenda, san-serif;
     font-weight: 400;
     font-style: normal;
@@ -225,6 +225,15 @@ footer img{
     margin-top: 10px;
 }
 
+.subhead{
+    color: rgb(0, 160, 200);
+    font-weight: bold;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: -10px;
+    //background-color: pink;
+}
+
 .ph{
     color: black;
     line-height: 25px;
@@ -312,6 +321,23 @@ footer img{
     } 
 }
 
+
+/*Back to Writing*/
+.btw{
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(77, 77, 77);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    
+}
+
+.btw:hover{
+    color: rgb(0, 160, 200);
+}
 
 
 
