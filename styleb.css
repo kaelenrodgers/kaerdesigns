@@ -332,6 +332,18 @@ footer img{
     } 
 }
 
+.sources{
+    display: block;
+    text-decoration: none;
+    //line-height: 50px;
+    text-align: left;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 100%;
+}
+
 
 /*Back to Writing*/
 .btw{
