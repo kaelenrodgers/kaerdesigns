@@ -1,0 +1,352 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#wrap{
+    max-width: 1200px;
+    margin: auto;
+}
+
+a, p, h1, h2{
+    font-family: agenda, san-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
+p{
+    
+}
+
+
+/*Footer*/
+footer{
+    //background-color: antiquewhite;
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer img{
+    height: 250px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+/*footer p{
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: rgb(77, 77, 77);
+    display: inline-block;
+}*/
+
+
+
+
+/*Text*/
+
+#writingd{
+    color: rgb(0, 160, 200);
+}
+
+#bmain{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    //background-color: aqua;
+}
+
+.bformat{
+    display: flex;
+    flex-wrap: wrap;
+    //background-color: blue;
+    //justify-content: center;
+}
+
+#text{
+    display: flex;
+    flex-wrap: wrap;
+    //width: 88%;
+    margin-left: 3%;
+    margin-right: 3%;
+    min-width: 225px;
+    //background-color: pink;
+}
+
+.title{
+    display: block;
+    color: black;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 25;
+}
+
+.subhead{
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: -10px;
+    //background-color: pink;
+}
+
+.ph{
+    color: black;
+    line-height: 25px;
+    margin-bottom: 100;
+    width: 100%;
+}
+
+.piccred{
+    color: gainsboro;
+    display: inline-block;
+    width: 100%;
+    margin: 0%;
+    margin-top: -1%;
+    
+}
+    
+#aboutftr{
+    margin-top: 50px;
+    
+}
+
+.bformat img{
+    //width: 50%;
+    //height: 30%;
+    //max-width: 400px;
+    background-color: aqua;
+    //margin-left: 3%;
+}
+
+.imagesmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //background-color: green;
+    width: 89%;
+    margin: 2%;
+    margin-left: 0;
+}
+
+.imagessmaller{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //background-color: green;
+    width: 50%;
+    margin: 2%;
+    margin-left: 0;
+}
+
+
+.imagesw img{
+    margin-bottom: 6%;
+    width: 100%;
+    height: 100%;
+    
+}
+    
+@media screen and (max-width:800px){
+    .bformat img{
+        display: inline-block;
+        width: 47%;
+        //float: left;
+    }
+    
+    #text{
+        display: inline-block;
+        width: 47%;
+    }
+    
+    #hello{
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    
+    .aboutph{
+        display: inline-block;
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        letter-spacing: 1;
+    }
+}   
+
+@media screen and (max-width:598px){
+    #bmain{
+        width: 70%;
+    }
+    
+    .bformat img{
+        display: inline-block;
+        width: 80%;
+        //min-width: 400px;
+        background-color: aqua;
+        margin-bottom: 15px;
+    }
+    
+    #text{
+        display: inline-block;
+        width: 80%;
+        //background-color: pink;
+        margin-left: 0;
+    } 
+}
+
+.sources{
+    display: block;
+    text-decoration: none;
+    //line-height: 50px;
+    text-align: left;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+/*Back to Writing*/
+.btw{
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(77, 77, 77);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    
+}
+
+.btw:hover{
+    color: rgb(0, 160, 200);
+}
+
+
+
+
+/*Blog Summaries from W page*/
+.postsum{
+    text-decoration: none;
+    color: black;
+}
+
+.postsum:hover{
+    color: rgb(0, 160, 200);
+}
+
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: center;
+    width: 80%;
+    margin-left: 3%;
+    min-width: 225px;
+    //background-color: pink;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+#title{
+    display: block;
+    color: black;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: -10px;
+    margin-right: 50%;
+}
+
+.summary{
+    color: black;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+
+@media screen and (max-width:600px){
+    .blog{
+        //display: inline-block;
+        //justify-content: center;
+        width: 80%;
+        //background-color: blue;
+        margin-left: 10%;
+    }
+    
+    /*.zoomw{
+        width: 100%;
+    }
+    .zoomw img{
+        width: 100%;
+    }*/
+}
+
+
+@media screen and (min-width:600px){
+    
+    .imagesw{
+        justify-content: center;
+    }
+    
+    .imagesw img{
+        display: inline-block;
+        width: 100%;
+        //background-color: aquamarine;
+    }
+    
+    .imagesw a{
+        display: inline-block;
+        width: 44%;
+        //background-color: beige;
+    }
+    
+    .blog{
+        display: inline-block;
+        //justify-content: center;
+        width: 90%;
+        //background-color: green;
+    }
+    
+    .zoom{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:1000px){
+    
+    .imagesw{
+        justify-content: center;
+        //width: 80%;
+    }
+    
+    .imagesw img{
+        display: inline-block;
+        width: 100%;
+        //background-color: aquamarine;
+    }
+    
+    .imagesw a{
+        display: inline-block;
+        width: 33%;
+        //background-color: beige;
+    }
+    
+    .blog{
+        display: inline-block;
+        //justify-content: center;
+        width: 90%;
+        //background-color: green;
+    }
+    
+}
+
