@@ -2,31 +2,29 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: white;
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 #wrap{
     max-width: 1200px;
     margin: auto;
+    //background-color: pink;
 }
 
 a, p, h1{
-    font-family: agenda, san-serif;
+    font-family: "garamond-premier-pro", serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 1.5px;
-}
-
-p{
-    
 }
 
 
 /*Header*/
 nav{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(35, 94, 101);
 }
 
 nav a{
@@ -34,43 +32,56 @@ nav a{
     text-decoration: none;
     line-height: 50px;
     text-align: center;
-    color: rgb(77, 77, 77);
-    font-size: 25px;
-    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    //font-weight: bold;
 }
 
-#menu:hover{
-    color: rgb(179, 179, 179);
-    }
-    #home:hover{
-        color: rgb(179, 179, 179);
-    }
-    #design:hover{
-        color: rgb(180, 2, 120);
-    }
-    #writing:hover{
-        color: rgb(0, 160, 200);
-    }
-    #about:hover{
-        color: rgb(64, 180, 41);
-    }
-    #contact:hover{
-        color: rgb(255, 160, 1);
-    }
+.navcontent{
+    width: 80%;
+    margin: auto;
+    //background-color: pink;
+}
 
+.link:hover{
+    color: rgb(203, 182, 101);
+}
 
 .link{
     display: none;
 }
+.link img{
+    display: none;
+    height: 12%;
+    //display: block;
+    float: center;
+    //background-color: red;
+    margin: auto;
+}
+
 .show{
     display: block;
 }
 
-@media screen and (min-width:600px){
+
+@media screen and (min-width:750px){
     .link{
         display: block;
         float: left;
         width: 20%;
+        //background-color: pink;
+        margin-top: 27px;
+    }
+    .link img{
+        //display: none;
+        height: 15%;
+        display: block;
+        float: center;
+        margin-left: 15px;
+    }
+    
+    #logo{
+        margin-top: 0px;
     }
     
     nav{overflow: auto;}
@@ -79,11 +90,29 @@ nav a{
 
 
 
+
+/*
+.logo{
+    display: inline-block
+    float: right;
+    height: 20%;
+    margin: auto;
+    //background-color: pink;
+}
+
+.logo img{
+    display: block;
+    float: right;
+    height: 100%;
+}
+*/
+
+
 /*Footer*/
 footer{
     //background-color: antiquewhite;
     height: 50px;
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -93,6 +122,12 @@ footer img{
     display: inline-block;
     margin-right: 30px;
     margin-top: 20px;
+}
+
+.footercontent{
+    width: 80%;
+    margin: auto;
+    //background-color: pink;
 }
 
 /*footer p{
@@ -108,53 +143,52 @@ footer img{
 /*Home*/
 
 .homebody{
-    background-color: black;
+   
 }
 
-#homed{
-    color: white;
-}
-
-#homescript{
+#main{
     width: 70%;
     margin: auto;
-    max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-top: 50px;
-    //background-color: beige;
+    //background-color: aqua;
 }
-.hmscript{
-    margin: 50px;
-    max-width: 1000px;
+
+.links{
+    color: black;
+    text-decoration: none;
+    //background-color: pink;
+    font-size: 50;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 15;
 }
-.hmscript img{
-    max-width: 1000px;
+
+.links:hover{
+    color: rgb(203, 182, 101);
 }
 
 
 @media screen and (max-width: 1200px){
-    .hmscript img{
-    max-width: 1000px;
+    .links{
+    font-size: 50px;
     }
 }
 @media screen and (max-width: 1000px){
-    .hmscript img{
-    max-width: 600px;
+    .links{
+    font-size: 40px;
+    letter-spacing: 12;
     }
 }
 @media screen and (max-width: 800px){
-    .hmscript img{
-    max-width: 500px;
+    .links{
+    font-size: 30px;
+    letter-spacing: 10;
     }
 }
 @media screen and (max-width: 600px){
-    .hmscript img{
-        max-width: 400px;
-    }
-    .hmscript{
-        margin: 5px;
+    .links{
+    font-size: 25px;
+    letter-spacing: 5;
     }
 }
 
@@ -247,7 +281,7 @@ footer img{
 /*Design*/
     
 #designd{
-    color: rgb(180, 2, 120);
+    color: rgb(49, 165, 213);
 }
 
 #dmain{
@@ -393,61 +427,6 @@ footer img{
     
     
 
-/*Writing*/
-
-#writingd{
-    color: rgb(0, 160, 200);
-}
-
-#wmain{
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
-    //background-color: aqua;
-}
-
-.imagesw{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    //background-color: green;
-    //height: 500px;
-}
-
-.imagesw a{
-    background-color: pink;
-}
-
-.imagesw img{
-    margin-bottom: 6%;
-    width: 100%;
-    //height: 100%;
-    
-}
-
-.zoomw{
-    overflow: hidden;
-    //background-color: aquamarine;
-    transform: scale(1);
-    margin-bottom: 5%;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
-}
-
-.zoomw img{
-    transition: transform 0.5s;
-    //background-color: pink;
-    width:100%;
-    //height: 100%;
-    margin-bottom: 0;
-}
-
-.zoomw:hover img{
-    transform: scale(1.15);
-}
-
-
-
 
 /*Blog*/
 .postsum{
@@ -569,7 +548,7 @@ footer img{
 /*About*/
 
 #aboutd{
-    color: rgb(64, 180, 41);
+    color: rgb(35, 96, 114);
 }
 
 #amain{
@@ -680,11 +659,6 @@ footer img{
     //background-color: antiquewhite;
 }
 
-#contactd{
-    color: rgb(255, 160, 1);
-}
-
-
 
 /*Form*/
 .form{
@@ -695,9 +669,9 @@ footer img{
 .formtitle{
     font-size: 50px;
     //margin-top: 50px;
-    color: black;
-    font-family: agenda, san-serif;
-    font-weight: 400;
+    color: rgb(203, 182, 101);
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 600;
     font-style: normal;
     letter-spacing: 1.5px;
 }
@@ -712,11 +686,11 @@ footer img{
 }
 .formlabel{
     color: black;
-    font-family: agenda, san-serif;
-    font-size: 25px;
+    font-family: "garamond-premier-pro-display", san-serif;
+    font-size: 30px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.1px;
 }
 .formitem{
     margin: 20px;
@@ -750,16 +724,15 @@ footer img{
     padding: 5px;
     margin-top: 7px;
     font-size: 15px;
-    font-family: agenda, san-serif;
+    font-family: "garamond-premier-pro", serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 1.5px;
     outline: none;
-    background-color: rgb(134,141,143);
+    background-color: rgb(153, 192, 196);
     border: none;
 }
 .forminput:focus{
-    background-color: rgb(212, 212, 212);  
+    background-color: rgb(222, 222, 222);  
 }
 .forminputsmall{
     color: black;
@@ -767,16 +740,15 @@ footer img{
     max-width: 200px;
     padding: 5px;
     font-size: 15px;
-    font-family: agenda, san-serif;
+    font-family: "garamond-premier-pro", serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 1.5px;
     outline: none;
-    background-color: rgb(134,141,143);
+    background-color: rgb(153, 192, 196);
     border: none;
 }
 .forminputsmall:focus{
-    background-color: rgb(212, 212, 212);  
+    background-color: rgb(222, 222, 222);  
 }
 
 textarea.forminput{
@@ -784,18 +756,19 @@ textarea.forminput{
     min-height: 200px;
 }
 .formbutton{
-    font-size: 20px;
-    font-family: agenda, san-serif;
+    font-size: 25px;
+    font-family: "garamond-premier-pro", serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1.5px;
+    color: white;
     padding: 10px;
     margin: 12px;
     border: none;
-    background-color: rgb(255, 160, 1);
+    background-color: rgb(35, 94,101);
 }
 .formbutton:active{
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(203, 182, 101);
 }
     
     
