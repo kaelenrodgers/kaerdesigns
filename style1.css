@@ -784,6 +784,7 @@ footer img{
     outline: none;
     background-color: rgb(153, 192, 196);
     border: none;
+    display: block;
 }
 .forminputsmall:focus{
     background-color: rgb(222, 222, 222);  
