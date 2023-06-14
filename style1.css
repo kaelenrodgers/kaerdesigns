@@ -299,6 +299,22 @@ footer img{
     //background-color: antiquewhite;
 }
 
+.portfoliolink{
+    color: black;
+    text-decoration: none;
+    //background-color: pink;
+    font-size: 30;
+    display: flex;
+    justify-content: left;
+    //margin-left: 2.5%;
+    margin-top: 5px;
+    letter-spacing: 2.5;
+}
+
+.portfoliolink:hover{
+    color: rgb(203, 182, 101);
+}
+
 .images{
     display: flex;
     flex-wrap: wrap;
