@@ -689,6 +689,7 @@ footer img{
 /*Form*/
 .form{
     font-size: 20px;
+    //background-color: green;
 }
 
 
@@ -717,11 +718,22 @@ footer img{
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1.1px;
+    display: inline;
+    //background-color: pink;
 }
 .formitem{
     margin: 20px;
     display: inline-block;
     margin-left: 12px;
+    //background-color: aqua;
+}
+
+.formitemlg{
+    margin: 20px;
+    display: inline-block;
+    margin-left: 12px;
+    //background-color: aqua;
+    width: 85%;
 }
 
 /*
@@ -781,6 +793,28 @@ textarea.forminput{
     resize: none;
     min-height: 200px;
 }
+
+.forminputlg{
+    color: black;
+    width: 100%;
+    max-width: 600px;
+    min-height: 100px;
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 15px;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    outline: none;
+    background-color: rgb(153, 192, 196);
+    border: none;
+    resize: none;
+    display: block;
+}
+.forminputlg:focus{
+    background-color: rgb(222, 222, 222);  
+}
+
 .formbutton{
     font-size: 25px;
     font-family: "garamond-premier-pro", serif;
@@ -792,6 +826,7 @@ textarea.forminput{
     margin: 12px;
     border: none;
     background-color: rgb(35, 94,101);
+    cursor: pointer;
 }
 .formbutton:active{
     background-color: rgb(203, 182, 101);

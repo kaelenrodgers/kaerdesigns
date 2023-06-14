@@ -37,7 +37,7 @@
     
     
             <main id="cmain">
-                <form class="form" action="./" method="post">
+                <form class="form" action="./" method="post" onsubmit="sendEmail(); reset(); return false;">
                     <div class="formtitle">Questions?</div>
                     <p class="formdes">I'd love to hear from you! Use the form below to send me questions or comments. Note: This is currently down but you can contact me through my instagram or Linkedin!</p>
                 
@@ -45,7 +45,7 @@
                 <section id="leftcol">
                     <div class="formitem">
                         <label for="firstname"class="formlabel">Name</label>
-                        <input type="text" class="forminput" name="firstname" id="firstname" required>
+                        <input type="text" class="forminput" name="name" id="name" required>
                     </div>
                     
                     <div class="formitem">
@@ -75,9 +75,9 @@
                         </select>
                      </div>-->
                 </section>
-                     <div class="formitem" id="spinstructions">
+                     <div class="formitemlg" id="spinstructions">
                          <label for="instructions" class="formlabel">Comments</label>
-                        <textarea name="instructions" id="instructions" class="forminput"></textarea>
+                        <textarea name="comments" id="comments" class="forminputlg"></textarea>
                     </div>
                     
                     <div>
@@ -106,6 +106,25 @@
                 $(".link").toggleClass("show");
             });
             
+        </script>
+        
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+        <script>
+        function sendEmail(){
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "kaelen.rodgers@gmail.com",
+            Password : "7LBRUNvyCW-yvM",
+            To : 'kaelen.rodgers@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "Contact Form Submission",
+            Body : "Name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("email").value + "<br> Phone: " + document.getElementById("phone").value + "<br> Comments: " + document.getElementById("comments")
+            }).then(
+                message => alert("Message Sent Succesfully")
+            );
+        }
+        
         </script>
     
     </body>
