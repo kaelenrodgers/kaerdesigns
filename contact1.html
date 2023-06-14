@@ -38,6 +38,12 @@
     
             <main id="cmain">
                 <form class="form" action="https://formsubmit.co/a9090624d7daacae237160c7821fc120" method="POST">
+                <!--honeypot-->
+                    <input type="text" name="_honey" style="display:none;">
+                    
+                <!--Disable Chaptcha-->
+                    <input type="hidden" name="_captcha" value="false">
+                    
                     <div class="formtitle">Questions?</div>
                     <p class="formdes">I'd love to hear from you! Use the form below to send me questions or comments. Note: This is currently down but you can contact me through my instagram or Linkedin!</p>
                 
@@ -45,18 +51,18 @@
                 <section id="leftcol">
                     <div class="formitem">
                         <label for="firstname"class="formlabel">Name</label>
-                        <input type="text" class="forminput" name="name" id="name" required>
+                        <input type="text" class="forminput" name="Name" id="name" required>
                     </div>
                     
                     <div class="formitem">
                         <label for="email"class="formlabel">Email</label>
-                        <input type="email" class="forminput" name="email" id="email" required>
+                        <input type="Email" class="forminput" name="email" id="email" required>
                     </div>
                 </section>
                 <section id="rightcol">
                     <div class="formitem" id="phonenum">
                         <label for="phone"class="formlabel">Phone Number</label>
-                        <input type="tel" class="forminputsmall" name="phone" id="phone">
+                        <input type="tel" class="forminputsmall" name="Phone" id="phone">
                     </div>
                     
                     <!--<div class="dessert">
@@ -77,7 +83,7 @@
                 </section>
                      <div class="formitemlg" id="spinstructions">
                          <label for="instructions" class="formlabel">Comments</label>
-                        <textarea name="comments" id="comments" class="forminputlg"></textarea>
+                        <textarea name="Comments" id="comments" class="forminputlg"></textarea>
                     </div>
                     
                     <div>
