@@ -703,6 +703,16 @@ footer img{
     letter-spacing: 1.5px;
 }
 
+.formsubmittedtitle{
+    font-size: 40px;
+    margin-bottom: 300px;
+    color: rgb(203, 182, 101);
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
 
 
 .formdes{
